@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="studapp:war">
+    <output-path>$PROJECT_DIR$/studapp/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>studapp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="studapp-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="studapp:war exploded" />
+    </root>
+  </artifact>
+</component>
